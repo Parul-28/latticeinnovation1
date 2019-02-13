@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+android:paddingTop="70dp"
+        android:paddingLeft="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" name" />
+
+    <EditText
+        android:paddingLeft="40dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextname"
+        />
+    <TextView
+        android:paddingLeft="40dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username!"
+        />
+    <EditText
+        android:paddingLeft="40dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editUsername"
+        />
+    <TextView
+        android:paddingLeft="40dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="password"
+        />
+    <EditText
+        android:paddingLeft="40dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editpassword"
+        />
+    <TextView
+        android:paddingLeft="40dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editemail"
+        android:paddingLeft="40dp"
+
+        />
+
+    <TextView
+        android:paddingLeft="40dp"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="number"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="40dp"
+
+        android:id="@+id/editnumber"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/register"
+        android:text="REGISTER"/>
+
+    <Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/login"
+    android:text="LOGIN"/>
+</LinearLayout>
